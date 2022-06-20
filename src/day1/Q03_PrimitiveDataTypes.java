@@ -20,26 +20,7 @@ public class Q03_PrimitiveDataTypes {
 
         //byte, short, integer,long, double, float veri tiplerinin max ve min degerlerini yazdiralim.
 
-        byte byteMax = Byte.MAX_VALUE;
-        System.out.println("byteMax = " + byteMax);
 
-        byte byteMin = Byte.MIN_VALUE;
-        System.out.println("byteMin = " + byteMin);
-
-        short shortMax = Short.MAX_VALUE;
-        System.out.println("shortMax = " + shortMax);
-
-        short shortMin = Short.MIN_VALUE;
-        System.out.println("shortMin = " + shortMin);
-
-        int intMin = Integer.MIN_VALUE;
-        System.out.println("intMin = " + intMin);
-
-        int intMax = Integer.MAX_VALUE;
-        System.out.println("intMax = " + intMax);
-
-        long longMin = Long.MIN_VALUE;
-        System.out.println("longMin = " + longMin);
 
         //long, double, float veri tiplerinin max ve min degerlerini yazdiralim.
 
@@ -47,21 +28,9 @@ public class Q03_PrimitiveDataTypes {
         //Her veri turuyle bir tane olmak uzere 4 degisken olusturun (float, double, char, boolean)
         //Degiskenler icin anlamli isimler kullanip, yazdiralim
 
-        float  laptopFiyat = 9999.99F;
-        double kilometre =579.6;
-        char cinsiyet = 'E';
-        boolean dogruMu =true;
 
-    //   System.out.println(laptopFiyat);
-    //   System.out.println("laptopFiyat = " + laptopFiyat); //soutv yazinca bu sekilde cikiyor
-    //   System.out.println(kilometre);
-    //   System.out.println(cinsiyet);
-    //   System.out.println(dogruMu);
-        /*
-        coklu yorum satiri
-         */
 
-        System.out.println(laptopFiyat +"," + kilometre + "," + cinsiyet + "," + dogruMu);
+
 
     }
 
