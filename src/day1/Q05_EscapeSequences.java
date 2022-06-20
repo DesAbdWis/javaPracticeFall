@@ -2,6 +2,9 @@ package day1;
 
 public class Q05_EscapeSequences {
     /*
+    yazdırılamayan karakterleri karakter ve dize değişmezlerine koymak için kullanılırlar .
+    Örneğin, sekme, satır başı ve geri alma gibi karakterleri bir çıkış akışına koymak için kaçış dizilerini kullanabilirsiniz.
+
 	  \n (or \r): starts from a new line : metni bir alt satirdan itibaren yazdirir.
 	          \t:  horizontal tab : metni yatayda 1 tab miktari kaydirir.
 	          \\: prints a back slash :\ (ters slash) yazdirir
