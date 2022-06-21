@@ -38,6 +38,14 @@ public class Q04_JavaVariable {
         //x degiskenini initialize edin
         //y degiskenini yeni bir degerle guncelleyin
 
+        int x; //deklarasyon
+        int y =2000; //initialize -asingnment
+        x=30;//x in initialize
+        y=1;  //guncelleme
+
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+
 
     }
 }
