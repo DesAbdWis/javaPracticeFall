@@ -16,5 +16,19 @@ public class Q03_BMI {
 		 OUTPUT  : Vucut Kitle Indeksiniz : 23
 		 	 */
 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("kg olarak agirliginizi giriniz :");
+        double agirlik = sc.nextDouble();
+        System.out.print("cm olarak olarak boyunuzu giriniz :");
+        double boy = sc.nextDouble();
+        //boy = boy/100;
+        boy/=100;
+
+        double vke = agirlik/(boy*boy);
+        System.out.println("vke = " + vke);
+
+
+    }
 
 }

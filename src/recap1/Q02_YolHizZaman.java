@@ -16,4 +16,21 @@ public class Q02_YolHizZaman {
         Süre 4 saattir.
      */
 
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("gideceginiz yol mesafesi(km) :");
+        double yol = scan.nextDouble();
+
+        System.out.print("ortalama hiziniz(km/sa) :" );
+        double ort_hiz = scan.nextDouble();
+
+        double varis_suresi = yol/ort_hiz;
+        System.out.print("varis sureniz :" +varis_suresi + " sa");
+
+        scan.close();
+
+
+    }
+
+
 }
