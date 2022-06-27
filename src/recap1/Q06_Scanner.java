@@ -3,7 +3,7 @@ package recap1;
 import java.util.Scanner;
 
 public class Q06_Scanner {
-    public static void main(String[] args) {
+
 
     /*  Problem Tanımı
         Bir işçinin işi bitirme süresini ve toplam işçi sayısını alarak, işin bitme süresini
@@ -17,17 +17,5 @@ public class Q06_Scanner {
         İşin bitme süresi 5 gündür.
     */
 
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Bir işçi işi kaç günde bitirmektedir: ");
-        int bir_isci_bitirme_suresi = scanner.nextInt();
-
-        System.out.print("Toplam kaç işçi çalışacak: ");
-        int isci_sayisi = scanner.nextInt();
-
-        int coklu_bitirme_suresi = bir_isci_bitirme_suresi / isci_sayisi;
-        System.out.println("İşin bitme süresi: " + coklu_bitirme_suresi);
-
-
-    }
 }
