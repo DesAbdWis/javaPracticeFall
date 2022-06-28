@@ -16,5 +16,19 @@ public class Q05_Scanner {
         sonuç : 5.333333333333333
         */
 
-
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double a;
+        double b;
+        double c;
+        System.out.println("a sayisini giriniz :");
+        a=scanner.nextDouble();
+        System.out.println("b sayisin giriniz :");
+        b=scanner.nextDouble();
+        System.out.println("c sayisini giriniz :");
+        c=scanner.nextDouble();
+        
+        double sonuc= ((a*a)-(b*b)) / (3*c);
+        System.out.println("sonuc = " + sonuc);
+    }
 }

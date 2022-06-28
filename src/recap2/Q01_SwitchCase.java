@@ -15,4 +15,27 @@ public class Q01_SwitchCase {
     aksi halde: izin gunu
     (if deyimini KULLANMAYIN)
 */
+    public static void main(String[] args) {
+        String gun = "Sali";
+
+        switch (gun) {
+            case "Pazartesi":
+            case "Sali":
+                System.out.println("java dersi");
+                break;
+            case "Carsamba":
+            case "Cumartesi":
+                System.out.println("Sql dersi");
+                break;
+            case "Persembe":
+            case "Cuma":
+                System.out.println("Selenyum dersi");
+                break;
+
+            default:
+                System.out.println("izin gunu");
+        }
+    }
+
+
 }
