@@ -1,4 +1,4 @@
-package day1;
+package day1ANDday2_practice;
 
 public class Q04_JavaVariable {
     public static void main(String[] args) {

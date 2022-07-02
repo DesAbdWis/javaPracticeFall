@@ -1,4 +1,4 @@
-package practice_session2;
+package day3_practice;
 
 public class Q08_MethodCreation {
      /*
