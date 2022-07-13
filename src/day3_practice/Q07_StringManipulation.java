@@ -9,7 +9,7 @@ public class Q07_StringManipulation {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in); //meaj vermeden de konsol da girdi girilir
+        Scanner scan = new Scanner(System.in); //mesaj vermeden de konsol da girdi girilir
         String kelime = scan.next();
         System.out.println(kelime.length());
 
