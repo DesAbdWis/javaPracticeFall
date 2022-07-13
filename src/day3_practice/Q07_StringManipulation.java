@@ -6,6 +6,7 @@ public class Q07_StringManipulation {
 
     // Kullanicidan 4 harfli bir kelime isteyin
     // ve girilen kelimeyi tersten yazdirin
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in); //meaj vermeden de konsol da girdi girilir
