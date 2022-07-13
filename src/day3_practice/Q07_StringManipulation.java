@@ -13,7 +13,7 @@ public class Q07_StringManipulation {
         String kelime = scan.next();
         System.out.println(kelime.length());
 
-        if (kelime.length() <= 4) {
+        if (kelime.length() == 4) {
             char bir = kelime.charAt(0);
             char iki = kelime.charAt(1);
             char uc = kelime.charAt(2);
