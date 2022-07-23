@@ -16,4 +16,6 @@ public class Q07_SpecialCharRemoveArrayList {
    ArrayList= $-13, $0, $0
    Cevap = -1 olmalı.
     */
+
+
 }
